@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Placeholder testing area"
-date:   2017-11-03 15:54:52 +0100
+date:   2017-11-03 +0100
 categories: placeholder
 comments: true
 ---
