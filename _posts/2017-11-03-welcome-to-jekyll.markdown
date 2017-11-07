@@ -8,7 +8,7 @@ comments: true
 # Testing area
 
 This is the placeholder testing area. Here I'm testing different HTML and Scss modifications, as well as adding a Disqus form.
-
+<!--more-->
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"

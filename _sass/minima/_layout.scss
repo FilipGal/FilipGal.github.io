@@ -2,32 +2,36 @@
  * Site header
  */
  .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: $spacing-unit * 1.865;
+    border-top: 5px solid $base-color;
     background-color: $grey-color-light;
+    min-height: $spacing-unit * 3,5;
+    text-align: center;
   
     // Positioning context for the mobile navigation icon
     position: relative;
   }
   
   .site-title {
-    @include relative-font-size(1.625);
-    font-weight: 300;
+    @include relative-font-size(2.25);
+    font-weight: 400;
     line-height: $base-line-height * $base-font-size * 2.25;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     margin-bottom: 0;
-    float: left;
   
     &,
     &:visited {
       color: $grey-color-dark;
     }
+
+    &:hover {
+        text-decoration: none;
+        color: $base-color;
+    }
   }
   
   .site-nav {
-    float: right;
     line-height: $base-line-height * $base-font-size * 2.25;
+    font-size: $large-font-size;
   
     .nav-trigger {
         display: none;
@@ -40,6 +44,10 @@
     .page-link {
       color: $text-color;
       line-height: $base-line-height;
+      &:hover {      
+        text-decoration: none;
+        color: $base-color;
+      }
   
       // Gaps between nav items, but not on the last one
       &:not(:last-child) {
@@ -100,17 +108,28 @@
       }
     }
   }
+
+  /**
+   * Posts
+   */
+  .post-header {
+    margin-bottom: $spacing-unit;
+  }
   
-  
+  .post-title {
+    @include relative-font-size(2.625);
+    letter-spacing: -1px;
+    line-height: 1;
+  }
   
   /**
    * Site footer
    */
   .site-footer {
     border-top: 1px solid $grey-color-light;
+    background: $grey-color-dark;
     padding: $spacing-unit 0;
     margin-top: auto;
-    background: $grey-color-light;
   }
 
   html, body {
@@ -122,6 +141,19 @@
   .footer-heading {
     @include relative-font-size(1.125);
     margin-bottom: $spacing-unit / 2;
+  }
+
+  .username a:hover {
+    color: $base-color;
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: $grey-color;
+  }
+  a:hover {
+    color: $base-color;
+    text-decoration: none;
   }
   
   .contact-list,
@@ -141,8 +173,8 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-    color: #000;
-    height: 50px;
+    color: $grey-color-light;
+    height: 60px;
   }
   
   .footer-col-1 {
@@ -191,15 +223,29 @@
   }
   
   .page-heading {
-    @include relative-font-size(1.25);
+    @include relative-font-size(2);
+    text-align: center;
   }
   
   .post-list {
     margin-left: 0;
+    padding: 40px;
     list-style: none;
+    float: left;
+
   
     > li {
       margin-bottom: $spacing-unit;
+    }
+
+    a {
+      color: $grey-color-dark;
+      font-weight: $base-font-weight;
+    }
+
+    a:hover {
+      color: $base-color;
+      text-decoration: none;
     }
   }
   
@@ -210,7 +256,8 @@
   
   .post-link {
     display: block;
-    @include relative-font-size(1.5);
+    margin-bottom: -10px;
+    @include relative-font-size(2);
   }
   
   
@@ -260,3 +307,13 @@
     }
   }
   
+
+  /**
+    * Hr style
+    */
+    hr {
+      border: 0;
+      height: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
