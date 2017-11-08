@@ -1,0 +1,13 @@
+/* humanstxt.org/ */
+/* The humans responsible & technology colophon */
+
+/* TEAM */
+	Filip Gal
+	filipgal.github.io
+	https://www.github.com/filipgal
+
+/* SITE */
+	Last update: 2017/11/08
+	HTML5, CSS3
+	Jekyll, scss
+	Visual Studio Code
