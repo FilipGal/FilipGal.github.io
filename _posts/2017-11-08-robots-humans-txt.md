@@ -2,7 +2,7 @@
 layout: post
 title:  "robots.txt and humans.txt"
 date:   2017-11-08 11:18 +0100
-categories: CSS
+categories: Webdev
 author: Filip Gal
 comments: true
 ---

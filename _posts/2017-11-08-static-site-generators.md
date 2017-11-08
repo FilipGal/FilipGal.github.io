@@ -2,12 +2,12 @@
 layout: post
 title:  "Static site generators"
 date:   2017-11-08 09:00 +0100
-categories: SSG
+categories: Webdev
 author: Filip Gal
 comments: true
 ---
 
-### Static site generators and what they're good for <!--more-->
+### Static site generators and what they're good for. <!--more-->
 
 Static site generators (henceforth referred to as SSGs) gives the user or developer a perfect starting point for a new project. Any good SSG will provide you with a basic boilerplate that contains enough componenets to be actually useful. Jekyll, which we use in this assignment, comes with a base theme that I altered to make it stand out a bit more, having to write all functionality and modularity that the SSG has provided me would mean that this wouldn't be a two week project, but probably a two **month** project.
 
