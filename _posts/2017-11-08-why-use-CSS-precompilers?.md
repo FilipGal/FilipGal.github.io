@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why use CSS precompilers?"
-date:   2017-11-08 +0100
+date:   2017-11-08 08:00 +0100
 categories: CSS
 author: Filip Gal
 comments: true
